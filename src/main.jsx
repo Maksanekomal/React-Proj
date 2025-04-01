@@ -11,12 +11,11 @@ const AnotherElement = (
   <a href="https://google.com" target='_blank'>Visite google</a>
 )
 
-
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     {AnotherElement} 
    
-  </StrictMode>,
+  </StrictMode>
 )
+
